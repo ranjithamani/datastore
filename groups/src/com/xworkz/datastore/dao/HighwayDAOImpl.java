@@ -104,7 +104,6 @@ public class HighwayDAOImpl implements HighwayDAO{
 			if (no.getNumber() == (number)) {
 				System.out.println("conidtion:" + no.isCondition());
 				condition = no.isCondition();
-				//return true;
 			}
 		}
 		return condition;
